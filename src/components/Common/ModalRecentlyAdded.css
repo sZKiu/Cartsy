@@ -1,0 +1,32 @@
+  .modal-recentlyAdded{
+    position: fixed;
+    z-index: 200;
+    width: max-content;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-4rem);
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.227);
+    padding: .6rem;
+    display: grid;
+    gap: .4rem;
+    grid-auto-flow: column;
+    color: rgb(33, 33, 33);
+    border-radius: .4rem;
+    transition: transform .4s ease;
+  }
+  
+  .no-background{
+    background-color: transparent;
+    box-shadow: transparent;
+  }
+  
+  .translate3rem{
+    transform: translateX(-50%) translateY(1rem);
+  }
+  
+  .modal-recentlyAdded svg {
+    color: rgb(19, 195, 19);
+    justify-self: center;
+    align-self: center;
+  }
